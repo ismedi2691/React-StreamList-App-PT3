@@ -1,0 +1,110 @@
+/* src/App.css */
+.app-container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.App {
+    text-align: center;
+}
+
+.event-list {
+    list-style-type: none; /* No bullet points */
+    padding: 0;
+}
+
+.event-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+    .event-item.completed span {
+        text-decoration: line-through;
+        color: gray;
+    }
+
+input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+button {
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: radial-gradient(circle at 3% 25%, #00172F 0%, #003268 100%);
+}
+
+
+/* Gradient background */
+.gradient__bg {
+    background: radial-gradient(circle at 3% 25%, #00172F 0%, #003268 100%);
+    display: flex; /*smooth gradient across entire site*/
+}
+
+li {
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px;
+    transition: background-color 0.3s;
+}
+
+    li:hover {
+        background-color: #003268; /* Color hovering header tabs */
+        border-radius: 3px; /* Rounded corners */
+    }
+
+/* Header navigation tabs */
+nav ul {
+    list-style: none; /* No bullet points */
+    display: flex;
+    gap: 1rem;
+}
+
+/* Header navigation color */
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* "Your Streaming List" title */
+h1 {
+    color: #ffffff;
+    padding: 10px;
+    margin-left: 40px; /* Center the container with margin on top and bottom */
+}
+
+/* Search bar input for streamlist tab 
+    input {
+    font-family: Montserrat;
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 50px; /* Center the container with margin on top and bottom  
+*/
+
+button {
+    font-family: Montserrat;
+    padding: 0.5rem;
+    background-color: #003268;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px; /* Rounded corners */
+}
+
+
+    /* Button hovering color, red */
+    button:hover {
+        background-color: red;
+    }
+

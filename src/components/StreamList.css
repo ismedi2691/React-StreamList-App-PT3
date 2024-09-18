@@ -1,0 +1,34 @@
+
+.live-stream-header {
+    margin: 20px 0; /* consistent margins */
+    font-size: 1.5em; /* font size */
+    margin-left: 50px;
+}
+
+.live-stream-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 20px; /* Space above the grid */
+    gap: 20px;
+}
+
+.stream-item-card {
+    border-radius: 20px; 
+    overflow: hidden;
+    text-align: center;
+    padding: 2px;
+    transition: transform 0.5s;
+    /*color: #00ff21;*/
+}
+
+.stream-item-card img {
+     width: 50%; /* images responsive */
+     height: auto; /* aspect ratio */
+     border-radius: 20px; /* rounded corners */
+
+}
+
+.stream-item-card:hover {
+    transform: scale(1.2);
+}
+

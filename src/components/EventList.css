@@ -1,0 +1,30 @@
+// JavaScript source code
+
+.event-form {
+    margin-bottom: 20px;
+}
+
+.event-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.event-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.event-buttons button {
+    margin-left: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
